@@ -18,5 +18,19 @@
 		<h3>This is where all the resources will be shown.</h3>
 	</div>
 
+	<h4>Resource Centers</h4>
+
+	{{#each centers}}
+      <div class="centers" id="{{id}}">
+      		<img src="images/{{img}}" ... />
+        	<p>{{name}}</p>
+        	<p>{{description}}</p>
+        	<p>{{phonenumber}}</p>
+        	<p>{{address}}</p>
+        </a>
+    </div>
+    {{/each}}
+
+
 </body>
 </html>
